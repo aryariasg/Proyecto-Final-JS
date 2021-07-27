@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Titan+One&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Home</title>
+</head>
+<body>
+
+
+<!------------popup novedades------------------>
+
+	<div class="login-popup">
+		<div class="box">
+			 <div class="img-area">
+				 <div class="img">
+				 </div>
+				 <img src="image/icecream2 - copia.png" alt="">
+			 </div>
+			 <div class="form">
+				 <div class="close">&times;</div>
+				 <h1>Hola!</h1>
+				 <p>¿Querés recibir las últimas novedades y lanzamientos?</p>
+				 <form>
+					 <div class="form-group">
+						 <input type="text" placeholder="Nombre" class="form-control">
+					 </div>
+					 <div class="form-group">
+						 <input type="email" placeholder="Email" class="form-control">
+					 </div>
+					 <button type="button" class="btn">Subcribirme</button>
+				 </form>
+			 </div>
+		</div>
+   </div>
+
+
+<!----------------nav bar--------------------->
+	<nav>
+        <div class="logo">
+            <img src="image/icecream2 - copia1.png" alt="">
+        </div>
+        <ul class="nav-links">
+                <a href="#">#THEICECREAMMATTERS</a>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </nav>
+
+	
+<!----------------filtrar por categorias--------------------->
+
+	<div class="contenedor">
+		<header>
+			<div class="title">
+				<h1>Descubre nuestros<br>productos</h1>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo" id="item-transicion">Todos</a>
+				<a href="#" id="item-transicion">icepops</a>
+				<a href="#" id="item-transicion">icecream</a>
+			</div>
+		</header>
+
+<!--------------------grilla productos ----------------------------------->
+
+		<section class="grid" id="grid">
+			<div class="item card" 
+				 data-categoria="icecream"
+				 data-etiquetas="chocolate amargo"
+				 data-descripcion="1.- Chocolate amargo de origen belga al 72%."
+			>
+				<div class="item-contenido">
+					<img  class="card-image" src="image/chocolate-belga.png" alt="">
+					<div class="card-content"> 
+						<p>Chocolate Amargo</p>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="item card"
+				 data-categoria="icecream"
+				 data-etiquetas="chocolate avellana"
+				 data-descripcion="2.- Chocolate relleno con avellanas desarrollado en Italia."
+			>
+				<div class="item-contenido">
+					<img class="card-image" src="image/chocolate.avellana.png" alt="">
+					<div class="card-content"> 
+						<p>Chocolate con Avellanas</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item card"
+				 data-categoria="icecream"
+				 data-etiquetas="chocolate banana dulce leche"
+				 data-descripcion="3.- Elaborado con banana fresca del Ecuador veteado con chocolate Italiano y dulce de leche"
+			>
+				<div class="item-contenido">
+					<img class="card-image" src="image/chocolate.banana.png" alt="">
+					<div class="card-content"> 
+						<p>Banana Split</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item card"
+				 data-categoria="icecream"
+				 data-etiquetas="vainilla oreo"
+				 data-descripcion="4.- Helado a base de crema chantilly sembrado con un veteado de cookies."
+			>
+				<div class="item-contenido">
+					<img class="card-image" src="image/oreo-vainilla-helado.png" alt="">
+					<div class="card-content"> 
+						<p>Oreo</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item card"
+				 data-categoria="icecream"
+				 data-etiquetas="chocotorta"
+				 data-descripcion="5.- Inspirado en el clásico postre argentino: helado cremoso de dulce de leche con vetas de dulce de leche Premium, queso crema y galletas bañadas en chocolate semiamargo."
+			>
+				<div class="item-contenido">
+					<img class="card-image" src="image/helado-chocotorta.png" alt="">
+					<div class="card-content"> 
+						<p>Chocotorta</p>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="item card"
+				 data-categoria="icecream"
+				 data-etiquetas="chocolate alfajor"
+				 data-descripcion="6.- El famoso y tradicional alfajor marplatense llevado a nuestros helados con trocitos de alfajor."
+			>
+				<div class="item-contenido">
+					<img class="card-image" src="image/helado-alfajor.png" alt="">
+					<div class="card-content"> 
+						<p>Alfajor <br> Havanna</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item card"
+				 data-categoria="icecream"
+				 data-etiquetas="mascarpone frutos rojos frutillasS"
+				 data-descripcion="7.- Queso mascarpone combinado con un veteado de frutos del bosque de la Patagonia Argentina."
+			>
+				<div class="item-contenido">
+					<img class="card-image" src="image/mascarpone.png" alt="">
+					<div class="card-content"> 
+						<p>Mascarpone</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item card" 
+				 data-categoria="icecream"
+				 data-etiquetas="yogurt frutilla fresa"
+				 data-descripcion="8.- Yogurt helado con frutillas frescas de la región."
+			>
+				<div class="item-contenido">
+					<img class="card-image" src="image/yogurt-frutilla.png" alt="">
+					<div class="card-content"> 
+						<p>Yogurt con Frutilla</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item card"
+				 data-categoria="icecream"
+				 data-etiquetas="frutilla fresa"
+				 data-descripcion="9.- Helado de crema de frutillas, elaborado con frutillas frescas de la región."
+			>
+				<div class="item-contenido">
+					<img class="card-image" src="image/frutilla-lacrema.png" alt="">
+					<div class="card-content"> 
+						<p>Frutilla</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item card" 
+				data-categoria="icecream"
+				data-etiquetas="frutilla naranja"
+				data-descripcion="1.- A las frutillas frescas de nuestra región le agregamos unas deliciosas naranjas exprimidas."
+	 	    >
+		   		<div class="item-contenido">
+	   				<img class="card-image" src="image/frutilla-naranja.png" alt="">
+					   <div class="card-content"> 
+						<p>Frutilla con naranja</p>
+					</div>
+		   		</div>
+	   		</div>
+
+			   <div class="item card" 
+			   data-categoria="icecream"
+			   data-etiquetas="limon pie"
+			   data-descripcion="1.- Transformamos la famosa receta en un increíble helado en su homenaje."
+			>
+				  <div class="item-contenido">
+					  <img class="card-image" src="image/limon-pie.png" alt="">
+					  <div class="card-content"> 
+						<p>Lemon Pie</p>
+					</div>
+				  </div>
+			  </div>
+
+			  <div class="item card" 
+			  data-categoria="icecream"
+			  data-etiquetas="maracuya"
+			  data-descripcion="1.- Helado inspirado en la receta de la mousse francesa liviana y aireada con maracuyá natural amazónica."
+		   >
+				 <div class="item-contenido">
+					 <img class="card-image" src="image/parchita.png" alt="">
+					 <div class="card-content"> 
+						<p>Maracuya</p>
+					</div>
+				 </div>
+			 </div>
+
+			 
+			 <div class="item card" 
+			 data-categoria="icepops"
+			 data-etiquetas="multifruta frutilla"
+			 data-descripcion="1.- Ice pop elaborado con jugo de limones naturales y decorados con frutilla, mandarina y kiwi."
+		  >
+				<div class="item-contenido zoom">
+					<img class="card-image" src="image/paleta-fruta.png" alt="">
+					<div class="card-content"> 
+						<p>Multifruta</p>
+					</div>
+				</div>
+			</div>
+
+				<div class="item card" 
+			data-categoria="icepops"
+			data-etiquetas="frutilla"
+			data-descripcion="1.- Ice pop elaborado con frutillas frescas de nuestra región."
+		 >
+			   <div class="item-contenido zoom">
+				   <img class="card-image" src="image/paleta-frutilla.png" alt="">
+				   <div class="card-content"> 
+					<p>Frutilla</p>
+				</div>
+			   </div>
+		   </div>
+
+		   <div class="item card" 
+		   data-categoria="icepops"
+		   data-etiquetas="mandarina"
+		   data-descripcion="1.- Ice pop refrescante elaborado con mandarinas naturales exprimidas."
+		>
+			  <div class="item-contenido zoom">
+				  <img class="card-image" src="image/paleta-mandarina.png" alt="">
+				  <div class="card-content"> 
+					<p>Mandarina</p>
+				</div>
+			  </div>
+		  </div>
+
+		  <div class="item card" 
+		  data-categoria="icepops"
+		  data-etiquetas="oreo"
+		  data-descripcion="1.- ice pop de chantilly con veteado de cookies, avellanas y ganache de chocolate, con oreo."
+	   >
+			 <div class="item-contenido zoom">
+				 <img class="card-image" src="image/paleta-oreo.png" alt="">
+				 <div class="card-content"> 
+					<p>Oreo</p>
+				</div>
+			 </div>
+		 </div>
+
+		 <div class="item card" 
+		 data-categoria="icepops"
+		 data-etiquetas="chocolate amargo mani"
+		 data-descripcion="1.- ce pop de chantilly, bañado en chocolate semiamargo italiano con pequeños trozos de maní caramelizado."
+	  >
+			<div class="item-contenido zoom">
+				<img class="card-image" src="image/paleta-mani-chocolate.png" alt="">
+				<div class="card-content"> 
+					<p>Chocolate con mani</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="item card" 
+		data-categoria="icepops"
+		data-etiquetas="chocolate amargo mani"
+		data-descripcion="1.- ce pop de chantilly, bañado en chocolate semiamargo italiano con pequeños trozos de maní caramelizado."
+	 >
+		   <div class="item-contenido">
+			   <img class="card-image" src="image/paleta-chocolate-blanco.png" alt="">
+			   <div class="card-content"> 
+				<p>Chocolate<br>blanco con mani</p>
+			</div>
+		   </div>
+	   </div>
+
+</section>
+
+<div class="containerW">
+	
+	<button type="button" id="btnCargar">Proximamente</button>
+	<div class="containerW" id="contenidos"></div>
+
+</div>
+
+<!-----------------footer ----------------------->
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="#" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<a href="#top"><i class="fas fa-chevron-up"></i></a>
+				<p> © 2021 by ary</p>
+			</div>
+		</footer>
+	</div>
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+	
+</body>
+</html>
